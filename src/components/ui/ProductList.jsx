@@ -9,7 +9,7 @@ const ProductList = () => {
       <div className="w-3/4 mx-auto flex justify-end mb-2">
         <button
           className="flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md"
-          onClick={() => navigate("/addproduct")}
+          onClick={() => navigate("addproduct")}
         >
           Add Product <img src="/icons/file-plus.svg" alt="" />
         </button>

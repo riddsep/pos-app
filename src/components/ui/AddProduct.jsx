@@ -5,9 +5,9 @@ const AddProduct = () => {
   return (
     <>
       <Form.Root className="w-3/4 mx-auto flex items-center flex-col gap-4 mt-8">
-        <h1 className="text-3xl font-semibold ">Add Product</h1>
+        <h1 className="text-3xl font-bold ">Add Product</h1>
 
-        <div className="w-2/5 bg-gray-100 px-5 py-20 shadow-md border-green-500  rounded-md">
+        <div className="w-2/5 bg-gray-50 px-5 py-20 shadow-xl border-green-500  rounded-md">
           <Form.Field name="product-name" className="flex flex-col">
             <Form.Label>Product Name</Form.Label>
             <Form.Control className="border border-green-500 p-1 rounded-md"></Form.Control>
