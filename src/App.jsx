@@ -1,9 +1,9 @@
 import "./App.css";
-import AddProduct from "./components/ui/AddProduct";
+import Routers from "./Router/Router";
 function App() {
   return (
     <>
-      <AddProduct />
+      <Routers />
     </>
   );
 }
